@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  google-voice-search:
+    build: .
+    volumes:
+      - type: bind
+        source: ./out
+        target: /scripts/out
